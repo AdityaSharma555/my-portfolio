@@ -1,7 +1,6 @@
 import React from 'react';
 import "./about.css";
 import AboutImg from "../../assets/MyProfileBw.jpeg";
-import CV from "../../assets/Example-Cv.pdf";
 import Info from "./Info";
 
 const About = () => {
@@ -16,7 +15,7 @@ const About = () => {
                 <p className="about__description">
                     Exploring Web / DevOps / Communities / Open Source. 
                 </p>
-                <a download="" href={CV} className="button button--flex">
+                <a download="" href="https://drive.google.com/drive/folders/16b5Gf8nWgVaCwSqbepwsghDVQnbfjYud?usp=drive_link" className="button button--flex">
                     Certificates
                     {/* <svg
                         class="button__icon"
